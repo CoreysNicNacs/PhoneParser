@@ -22,7 +22,7 @@ def get_geolocation_with_opencage(phone_number):
         raise ConnectionError("API request failed")
 
 if __name__ == "__main__":
-    phone_number = "+14013360609"
+    phone_number = "+14019193267"
     parsed_number = parse_phone_number(phone_number)
     latitude, longitude = get_geolocation_with_opencage(phone_number)
 
