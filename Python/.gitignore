@@ -1,0 +1,15 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables file
+.env
+
+# Ignore other common files and directories
+*.log
+*.sqlite3
+*.db
+*.envrc
+node_modules/
+dist/
+build/
